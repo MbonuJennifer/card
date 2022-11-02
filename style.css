@@ -4,3 +4,123 @@
   padding: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
+.logo-image {
+  width: 10rem;
+  height: 5rem;
+}
+
+.topnav a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.card-header {
+  color: #ffffff;
+  background-color: #2d7ff9;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+.card-body {
+  background-color: #d0f0fd;
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+.header-text {
+  font-size: 16px;
+  letter-spacing: 0.128px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.card-title {
+  font-size: 20px;
+  color: #333333;
+  font-weight: 500;
+  letter-spacing: 0.128px;
+  line-height: 25px;
+}
+.card-text {
+  margin: 16px 0;
+  font-size: 19.2px;
+}
+.card-text,
+.card-text2,
+.card-text3 {
+  letter-spacing: 0.128px;
+  line-height: 24px;
+  color: #333;
+}
+.card-text2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.card-text3 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.call-to-action {
+  background-color: #2d7ff9;
+  color: white;
+  padding: 1rem 3rem;
+  border: none;
+  margin: 1rem 2rem;
+  font-size: 16px;
+  letter-spacing: 0.128px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 2rem;
+  font-weight: 500;
+}
+.call-to-action:hover {
+  background-color: #2750ae;
+  color: white;
+}
+ul {
+  list-style: none;
+  margin-bottom: 5rem;
+}
+
+ul li:before {
+  content: "✓ ";
+}
+ul li {
+  letter-spacing: 0.128px;
+  line-height: 25px;
+  color: #333333;
+  font-size: 16px;
+  font-weight: 600;
+}
+.billed-span {
+  font-weight: bold;
+  font-size: 16px;
+}
+.card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.bill-price {
+  font-size: 4rem;
+  padding-right: 7px;
+}
+.dottedUnderline {
+  border-bottom: 1px dotted;
+}
